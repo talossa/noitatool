@@ -1,4 +1,4 @@
-HOW TO INSTALL:
+# HOW TO INSTALL:
 please put this entire "noitatool\" folder into your noita mods directory (rightclick noita in 
 steam -> manage 
 -> browse local files -> mods)
@@ -7,7 +7,7 @@ for the seed changer to work, you need to enable the associated mod inside the g
 disabling other seed changers might do the trick.
 
 
-GENERAL INFO:
+# GENERAL INFO:
 i did this mostly as a very simple exercise in batch scripting, and most of the code i used is borrowed from 
 elsewhere. 
 
@@ -20,7 +20,7 @@ if you have issues with the tool or ideas to possibly implement, please tell me 
 at @unnifi, and i'll see what i can do.
 
 
-ATTRIBUTION AND THANKS:
+# ATTRIBUTION AND THANKS:
 HootzMcToke for creating NoitaSaveTool.cmd which the entire GUI and saving system is ripped from:
 github.com/hootzmctoke/noitasavetool
 Dregu for creating Start with custom seed.zip, which the seed editor is based on:
@@ -28,4 +28,4 @@ modworkshop.net/mod/25898
 also, literally countless stackoverflow and superuser threads for teaching me the basics of the batch script, and Arska for 
 helping me test the damn thing.
 
-Cheers for downloading it, do let me know what you think!
+# Cheers for downloading it, do let me know what you think!

@@ -14,7 +14,7 @@ i have tried my hardest to bend the code so that it works nicely together as one
 
 feel free to tinker with it though, and share your own variations! :D
 
-if you have issues with the tool or ideas to possibly implement, please tell me about it on the reddit thread or on twitter at @unnifi, and i'll see what i can do.
+if you have issues with the tool or ideas to possibly implement, please tell me about it on **[the reddit thread](https://www.reddit.com/r/noita/comments/ljchy0)** or on twitter at **[@unnifi](https://twitter.com/unnifi)**, and i'll see what i can do.
 
 
 # ATTRIBUTION AND THANKS:

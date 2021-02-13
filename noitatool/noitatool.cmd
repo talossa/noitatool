@@ -3,51 +3,51 @@ echo off
 mode con:cols=75 lines=30
 setlocal EnableDelayedExpansion
 setlocal enableextensions
-set title=                º           noita tool release 1          º
-set LAST=                º       build time %~t0       º
+set title=                Âº           noita tool release 1          Âº
+set LAST=                Âº       build time %~t0       Âº
 title noitatool
-SET BOXTOP=		ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-SET MMSELECT=		º                [1;4mmain menu[0m                º
-SET BKSELECT=		º              [1;4msave backup[0m                º
-SET RESTSELECT=		º            [1;4msave restoration[0m             º
-SET DELSELECT=		º              [1;4msave deletion[0m              º
-SET SEEDSELECT=		º                [1;4mseed editor[0m              º
-SET SELECT=		º         select an option below          º
-SET BOXMID=		ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹
+SET BOXTOP=		Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+SET MMSELECT=		Âº                [1;4mmain menu[0m                Âº
+SET BKSELECT=		Âº              [1;4msave backup[0m                Âº
+SET RESTSELECT=		Âº            [1;4msave restoration[0m             Âº
+SET DELSELECT=		Âº              [1;4msave deletion[0m              Âº
+SET SEEDSELECT=		Âº                [1;4mseed editor[0m              Âº
+SET SELECT=		Âº         select an option below          Âº
+SET BOXMID=		ÃŒÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹
 SET LM=^
-		º             5. play game                º                       ^
-		º             6. main menu                º                       ^
-		º             7. quit                     º                       ^
-		º             8. force stop noita         º                       ^
-		ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼                ^
+		Âº             5. play game                Âº                       ^
+		Âº             6. main menu                Âº                       ^
+		Âº             7. quit                     Âº                       ^
+		Âº             8. force stop noita         Âº                       ^
+		ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼                ^
 [8mby unni and countless others, check readme.txt for details and attributions[31;1m
 set MM=^
-                º             1. backup a save            º                     ^
-           º             2. restore a save           º                     ^
-           º             3. delete saves             º                     ^
-           º             4. seed editor              º
+                Âº             1. backup a save            Âº                     ^
+           Âº             2. restore a save           Âº                     ^
+           Âº             3. delete saves             Âº                     ^
+           Âº             4. seed editor              Âº
 set BKM=^
-                º             1. backup to slot 1         º                     ^
-           º             2. backup to slot 2         º                     ^
-           º             3. backup to slot 3         º                     ^
-           º             4. Overwrite All            º      
+                Âº             1. backup to slot 1         Âº                     ^
+           Âº             2. backup to slot 2         Âº                     ^
+           Âº             3. backup to slot 3         Âº                     ^
+           Âº             4. Overwrite All            Âº      
 set RESTM=^
-                º             1. Restore From slot 1      º                     ^
-           º             2. Restore From slot 2      º                     ^
-           º             3. Restore From slot 3      º        
+                Âº             1. Restore From slot 1      Âº                     ^
+           Âº             2. Restore From slot 2      Âº                     ^
+           Âº             3. Restore From slot 3      Âº        
 set DELM=^
-                º             1. Delete save 001          º                     ^
-           º             2. Delete save 002          º                     ^
-           º             3. Delete save 003          º                     ^
-           º             4. Delete All backups       º    
+                Âº             1. Delete save 001          Âº                     ^
+           Âº             2. Delete save 002          Âº                     ^
+           Âº             3. Delete save 003          Âº                     ^
+           Âº             4. Delete All backups       Âº    
 set SEEDM=^
-                º             1. input a seed             º                     ^
-           º             2. random seed              º
+                Âº             1. input a seed             Âº                     ^
+           Âº             2. random seed              Âº
 :MAINMENU
 cls
 type %~dp0logo.txt
 echo.
-ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+ECHO [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 echo.
 ECHO !BOXTOP!
 ECHO !title!
@@ -57,7 +57,7 @@ ECHO !SELECT!
 ECHO !BOXMID!
 ECHO !MM!
 ECHO !LM!
-echo [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+echo [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 choice /n /c:12345678 >nul
 if errorlevel ==8 goto stopnoita
 if errorlevel ==7 goto close
@@ -72,7 +72,7 @@ goto MAINMENU
 cls
 type %~dp0logo.txt
 echo.
-ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+ECHO [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 echo.
 ECHO !BOXTOP!
 ECHO !title!
@@ -82,7 +82,7 @@ ECHO !SELECT!
 ECHO !BOXMID!
 ECHO !BKM!
 ECHO !LM!
-echo [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+echo [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 CHOICE /N /C:12345678 >NUL
 IF ERRORLEVEL ==8 GOTO stopnoita
 IF ERRORLEVEL ==7 GOTO close
@@ -140,7 +140,7 @@ GOTO BACKUP
 cls
 type %~dp0logo.txt
 echo.
-ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+ECHO [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 echo.
 ECHO !BOXTOP!
 ECHO !title!
@@ -150,7 +150,7 @@ ECHO !SELECT!
 ECHO !BOXMID!
 ECHO !RESTM!
 ECHO !LM!
-echo [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+echo [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 CHOICE /N /C:12345678 >NUL
 IF ERRORLEVEL ==8 GOTO stopnoita
 IF ERRORLEVEL ==7 GOTO close
@@ -181,7 +181,7 @@ GOTO startgame
 cls
 type %~dp0logo.txt
 echo.
-ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+ECHO [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 echo.
 ECHO !BOXTOP!
 ECHO !title!
@@ -191,7 +191,7 @@ ECHO !SELECT!
 ECHO !BOXMID!
 ECHO !DELM!
 ECHO !LM!
-echo [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+echo [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 CHOICE /N /C:12345678 >NUL
 IF ERRORLEVEL ==8 GOTO stopnoita
 IF ERRORLEVEL ==7 GOTO close
@@ -234,7 +234,7 @@ goto DELMAIN
 cls
 type %~dp0logo.txt
 echo.
-ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+ECHO [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 echo.
 ECHO !BOXTOP!
 ECHO !title!
@@ -244,7 +244,7 @@ ECHO !SELECT!
 ECHO !BOXMID!
 ECHO !SEEDM!
 ECHO !LM!
-echo [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
+echo [43;1mÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ[0m
 CHOICE /N /C:12345678 >NUL
 IF ERRORLEVEL ==8 GOTO stopnoita
 IF ERRORLEVEL ==7 GOTO close

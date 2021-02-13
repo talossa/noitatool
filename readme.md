@@ -1,5 +1,5 @@
 # HOW TO USE:
-put the entire "noitatool\" folder into your noita mods directory (rightclick noita in steam -> manage -> browse local files -> mods)
+download noitatool.zip, and put the folder contained in it into your noita mods directory (rightclick noita in steam -> manage -> browse local files -> mods)
 
 for the seed changer to work, you need to enable the associated mod inside the game's mod settings. 
 if something here is malfunctioning, sometimes disabling other seed changers might do the trick.

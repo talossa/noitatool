@@ -16,7 +16,7 @@ if you have issues with the tool or ideas to possibly implement, please tell me 
 
 
 # ATTRIBUTION AND THANKS:
-HootzMcToke for creating NoitaSaveTool.cmd which the entire GUI and saving system is ripped from:
+HootzMcToke for creating NoitaSaveTool.cmd which most of the GUI and the entire saving system is ripped from:
 https://github.com/hootzmctoke/noitasavetool
 
 Dregu for creating Start with custom seed.zip, which the seed editor is based on:

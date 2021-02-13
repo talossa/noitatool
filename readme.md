@@ -22,10 +22,10 @@ at @unnifi, and i'll see what i can do.
 
 # ATTRIBUTION AND THANKS:
 HootzMcToke for creating NoitaSaveTool.cmd which the entire GUI and saving system is ripped from:
-github.com/hootzmctoke/noitasavetool
+https://github.com/hootzmctoke/noitasavetool
 
 Dregu for creating Start with custom seed.zip, which the seed editor is based on:
-modworkshop.net/mod/25898
+https://modworkshop.net/mod/25898
 
 also, literally countless stackoverflow and superuser threads for teaching me the basics of the batch script, and Arska for 
 helping me test the damn thing.

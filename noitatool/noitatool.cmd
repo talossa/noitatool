@@ -271,7 +271,7 @@ cls
 EXIT 
 :stopnoita
 echo close noita? (Y/N)
-CHOICE /N /C YN >NUL
+CHOICE /N /C NY >NUL
 IF ERRORLEVEL 2 GOTO endgame
 IF ERRORLEVEL 1 GOTO MAINMENU
 :endgame

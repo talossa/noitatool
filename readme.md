@@ -1,3 +1,5 @@
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
+
 # HOW TO USE:
 download **[noitatool.zip](https://github.com/talossa/noitatool/archive/main.zip)**, and put the folder contained in it into your noita mods directory (rightclick noita in steam -> manage -> browse local files -> mods)
 

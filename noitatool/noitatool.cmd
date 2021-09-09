@@ -45,7 +45,7 @@ set SEEDM=^
            º             2. random seed              º
 :MAINMENU
 cls
-type %~dp0logo.txt
+type "%~dp0logo.txt"
 echo.
 ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
 echo.
@@ -70,7 +70,7 @@ if errorlevel ==1 goto BACKUP
 goto MAINMENU
 :BACKUP
 cls
-type %~dp0logo.txt
+type "%~dp0logo.txt"
 echo.
 ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
 echo.
@@ -138,7 +138,7 @@ pause
 GOTO BACKUP
 :REST
 cls
-type %~dp0logo.txt
+type "%~dp0logo.txt"
 echo.
 ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
 echo.
@@ -179,7 +179,7 @@ ECHO backup 003 restored!
 GOTO startgame
 :DELMAIN
 cls
-type %~dp0logo.txt
+type "%~dp0logo.txt"
 echo.
 ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
 echo.
@@ -232,7 +232,7 @@ pause
 goto DELMAIN
 :seededit
 cls
-type %~dp0logo.txt
+type "%~dp0logo.txt"
 echo.
 ECHO [43;1mÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ[0m
 echo.
@@ -254,7 +254,7 @@ IF ERRORLEVEL ==2 GOTO noseed
 IF ERRORLEVEL ==1 GOTO setseed
 GOTO seededit
 :setseed
-START /d %~dp0 setseed.bat
+START /d "%~dp0" setseed.bat
 GOTO MAINMENU
 :startGame
 echo start noita? (Y/N):
@@ -278,5 +278,5 @@ IF ERRORLEVEL 1 GOTO MAINMENU
 taskkill.exe /f /im noita.exe
 goto MAINMENU
 :noseed
-START /d %~dp0 noseed.bat
+START /d "%~dp0" noseed.bat
 GOTO MAINMENU

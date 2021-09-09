@@ -1,7 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
 
 # HOW TO USE:
-download **[noitatool.7z](https://github.com/talossa/noitatool/releases/latest)** (now with a checksum so you can make sure the download is integrous), and put the folder contained in it into your noita mods directory (rightclick noita in steam -> manage -> browse local files -> mods)
+download **[noitatool.7z](https://github.com/talossa/noitatool/releases/latest)**, and put the folder contained in it into your noita mods directory (rightclick noita in steam -> manage -> browse local files -> mods)
 
 for the seed changer to work, you need to enable the associated mod inside the game's mod settings. 
 if something here is malfunctioning, sometimes disabling other seed changers might do the trick.
